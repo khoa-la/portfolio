@@ -1134,10 +1134,11 @@ footer .social-links li:first-child {
 }
 
 .slide {
-   height: 200px;
+   /* height: 200px; */
    width: 250px;
    display: flex;
-   align-items: center;
+   /* object-fit: contain; */
+   /* align-items: center; */
    padding: 20px;
 }
 

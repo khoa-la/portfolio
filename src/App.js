@@ -30,7 +30,6 @@ const App = () => {
       <Portfolio data={resumeData.poster} />
       <Portfolio data={resumeData.comic} />
       <Portfolio data={resumeData.packaging} />
-      <Testimonials data={resumeData.testimonials} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
     </div>

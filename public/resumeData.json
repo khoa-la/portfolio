@@ -4,14 +4,14 @@
     "occupation": "Designer",
     "description": "I eat, sleep and breathe React",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
+    "bio": "Hi there! I am Nguyen Uy Bao! I am a 2nd year student majoring in graphic design at Hutech University, I have a year of internship at Rainbow production media company and freelance.",
     "contactmessage": "Get in touch with me",
     "email": "muonhat123@gmail.com",
     "phone": "+84 915438658",
     "address": {
-      "street": "67a, 85 street, Tan Quy, Quan 7",
+      "street": "67a, 85 Street, Tan Quy Ward, District 7",
       "city": "Ho Chi Minh",
-      "state": "Quan 7",
+      "state": "District 7",
       "zip": "W3B D3V"
     },
     "website": "https://www.papareact.com/course",
@@ -43,7 +43,13 @@
         "company": "Freelance",
         "title": "Freelancer",
         "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "description": "Design packaging, logo, panel for many customers"
+      },
+      {
+        "company": "Rainbow Company",
+        "title": "Designer",
+        "years": "September 13 2021 - February 10 2022",
+        "description": "Internship at Rainbow production media company"
       }
     ],
     "skills": [
@@ -66,6 +72,33 @@
       {
         "name": "AI",
         "level": "95%"
+      },
+      {
+        "name": "Listening",
+        "level": "25%"
+      },
+      {
+        "name": "Speaking",
+        "level": "40%"
+      },
+      {
+        "name": "Reading",
+        "level": "60%"
+      },
+      {
+        "name": "Writing",
+        "level": "70%"
+      }
+    ],
+    "otherSkills": [
+      {
+        "title": "Composing rap music"
+      },
+      {
+        "title": "Hand drawing skills"
+      },
+      {
+        "title": "Creative skills"
       }
     ]
   },
@@ -212,101 +245,93 @@
     "type": "poster",
     "projects": [
       {
-        "id": 17,
         "title": "",
         "category": "",
         "image": "poster.png",
         "url": ""
       },
       {
-        "id": 18,
-        "title": "",
-        "category": "",
-        "image": "poster1.png",
-        "url": ""
-      },
-      {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster2.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster3.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster4.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster5.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster6.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster7.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster8.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster9.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster10.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster11.png",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster12.jpg",
         "url": ""
       },
       {
-        "id": 19,
         "title": "",
         "category": "",
         "image": "poster13.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "poster14.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "poster15.jpg",
         "url": ""
       }
     ]
@@ -315,49 +340,30 @@
     "type": "comic",
     "projects": [
       {
-        "id": 20,
-        "title": "",
-        "category": "",
-        "image": "comic.jpg",
-        "url": ""
-      },
-      {
-        "id": 21,
-        "title": "",
-        "category": "",
-        "image": "comic1.jpg",
-        "url": ""
-      },
-      {
-        "id": 20,
         "title": "",
         "category": "",
         "image": "comic2.jpg",
         "url": ""
       },
       {
-        "id": 20,
         "title": "",
         "category": "",
         "image": "comic3.jpg",
         "url": ""
       },
       {
-        "id": 20,
         "title": "",
         "category": "",
         "image": "comic4.jpg",
         "url": ""
       },
       {
-        "id": 20,
         "title": "",
         "category": "",
         "image": "comic5.jpg",
         "url": ""
       },
       {
-        "id": 20,
         "title": "",
         "category": "",
         "image": "comic6.png",
@@ -369,21 +375,18 @@
     "type": "packaging",
     "projects": [
       {
-        "id": 20,
         "title": "",
         "category": "",
         "image": "packaging1.jpg",
         "url": ""
       },
       {
-        "id": 21,
         "title": "",
         "category": "",
         "image": "packaging2.jpg",
         "url": ""
       },
       {
-        "id": 20,
         "title": "",
         "category": "",
         "image": "packaging3.jpg",

@@ -36,6 +36,13 @@ const Resume = ({ data }) => {
         </li>
       );
     });
+    var otherSkills = data.otherSkills.map(function (skills) {
+      return (
+        <div key={skills.title}>
+          <p className="info">{skills.title}</p>
+        </div>
+      );
+    });
   }
 
   return (
@@ -76,6 +83,16 @@ const Resume = ({ data }) => {
             <ul className="skills">{skills}</ul>
           </div>
         </div>
+      </div>
+
+      <div className="row work">
+        <div className="three columns header-col">
+          <h1>
+            <span>OTHER SKILLS</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">{otherSkills}</div>
       </div>
     </section>
   );
