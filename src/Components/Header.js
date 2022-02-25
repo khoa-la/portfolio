@@ -6,8 +6,6 @@ const Header = ({ data }) => {
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
-    var description = data.description;
-    var city = data.address.city;
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>

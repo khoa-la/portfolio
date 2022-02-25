@@ -51,7 +51,9 @@ const Portfolio = ({ data }) => {
     });
   } else {
     return (
-      <Box sx={{ display: "flex" }}>
+      <Box
+        sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
+      >
         <CircularProgress />
       </Box>
     );
@@ -64,33 +66,45 @@ const Portfolio = ({ data }) => {
           <h1>Check Out Some of My {data?.type} Design</h1>
         </div>
       </div>
-      <SRLWrapper options={options}>
-        <Slider {...settings}>
-          {data?.projects.map(function (project, index) {
-            console.log(data);
-            console.log(project);
-            return (
-              <React.Fragment key={index}>
-                <Col>
-                  <Card>
-                    <Card.Img
-                      variant="top"
-                      src={`images/${data.type}/${project.image}`}
-                      style={{
-                        width: "480px",
-                        maxHeight: "480px",
-                        objectFit: "contain",
-                        paddingLeft: "20px",
-                      }}
-                      className="portfolio__image"
-                    />
-                  </Card>
-                </Col>
-              </React.Fragment>
-            );
-          })}
-        </Slider>
-      </SRLWrapper>
+      <div style={{ width: "96%" }}>
+        <SRLWrapper options={options}>
+          <Slider {...settings}>
+            {data?.projects.map(function (project, index) {
+              return (
+                <React.Fragment key={index}>
+                  <Col>
+                    <Card>
+                      {data ? (
+                        <Card.Img
+                          variant="top"
+                          src={`images/${data.type}/${project.image}`}
+                          style={{
+                            width: "480px",
+                            maxHeight: "480px",
+                            objectFit: "contain",
+                            paddingLeft: "20px",
+                          }}
+                          className="portfolio__image"
+                        />
+                      ) : (
+                        <Box
+                          sx={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                          }}
+                        >
+                          <CircularProgress />
+                        </Box>
+                      )}
+                    </Card>
+                  </Col>
+                </React.Fragment>
+              );
+            })}
+          </Slider>
+        </SRLWrapper>
+      </div>
     </section>
   );
 };
