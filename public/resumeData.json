@@ -50,6 +50,12 @@
         "title": "Designer",
         "years": "September 13 2021 - February 10 2022",
         "description": "Internship at Rainbow production media company"
+      },
+      {
+        "company": "Long Xuyen city radio station",
+        "title": "Designer",
+        "years": "Three months",
+        "description": "Three months working at Long Xuyen city radio station"
       }
     ],
     "skills": [
@@ -368,6 +374,66 @@
         "category": "",
         "image": "comic6.png",
         "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic7.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic8.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic9.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic10.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic11.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic12.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic13.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic14.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic15.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "comic16.jpg",
+        "url": ""
       }
     ]
   },
@@ -390,6 +456,17 @@
         "title": "",
         "category": "",
         "image": "packaging3.png",
+        "url": ""
+      }
+    ]
+  },
+  "other": {
+    "type": "other",
+    "projects": [
+      {
+        "title": "",
+        "category": "",
+        "image": "other.jpg",
         "url": ""
       }
     ]

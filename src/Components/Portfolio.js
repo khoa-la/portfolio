@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { Card, Col } from "react-bootstrap";
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
 
 const options = {
   buttons: {
@@ -21,17 +23,9 @@ const options = {
   },
 };
 
-const settings = {
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  speed: 2000,
-  autoplaySpeed: 2000,
-  cssEase: "linear",
-};
-
 const Portfolio = ({ data }) => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   if (data) {
     var projects = data.projects.map(function (projects) {
       var projectImage = `images/${data.type}/` + projects.image;
@@ -59,6 +53,19 @@ const Portfolio = ({ data }) => {
     );
   }
 
+  const settings = {
+    infinite: true,
+    slidesToShow: Math.max(
+      isMobile ? 1 : 1,
+      Math.min(isMobile ? 1 : 5, Math.floor(data.projects.length / 2 + 1))
+    ),
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 4000,
+    autoplaySpeed: 4000,
+    cssEase: "linear",
+  };
+
   return (
     <section id="portfolio">
       <div className="row">
@@ -69,7 +76,7 @@ const Portfolio = ({ data }) => {
       <div style={{ width: "96%" }}>
         <SRLWrapper options={options}>
           <Slider {...settings}>
-            {data?.projects.map(function (project, index) {
+            {data?.projects.map((project, index) => {
               return (
                 <React.Fragment key={index}>
                   <Col>
