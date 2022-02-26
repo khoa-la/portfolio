@@ -84,7 +84,7 @@ const Portfolio = ({ data }) => {
                       {data ? (
                         <Card.Img
                           variant="top"
-                          src={`images/${data.type}/${project.image}`}
+                          src={`${project.image}`}
                           style={{
                             width: "480px",
                             maxHeight: "480px",

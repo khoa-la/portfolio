@@ -28,6 +28,8 @@ const App = () => {
       <Portfolio data={resumeData.logo} />
       <Portfolio data={resumeData.poster} />
       <Portfolio data={resumeData.comic} />
+      <Portfolio data={resumeData.packaging} />
+      <Portfolio data={resumeData.other} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
     </div>
