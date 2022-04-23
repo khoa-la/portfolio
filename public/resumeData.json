@@ -1,6 +1,9 @@
 {
   "main": {
     "name": "Nguyen Uy Bao",
+    "age": 21,
+    "nationality": "Vietnam",
+    "freelance": "Available",
     "occupation": "Designer",
     "description": "I eat, sleep and breathe React",
     "image": "profilepic.jpg",
@@ -14,7 +17,7 @@
       "state": "District 7",
       "zip": "W3B D3V"
     },
-    "website": "https://www.papareact.com/course",
+    "languages": ["Vietnamese", "English"],
     "resumedownload": "http://papareact.com",
     "social": [
       {
