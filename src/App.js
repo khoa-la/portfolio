@@ -28,8 +28,7 @@ const App = () => {
       <Portfolio data={resumeData.logo} />
       <Portfolio data={resumeData.poster} />
       <Portfolio data={resumeData.comic} />
-      <Portfolio data={resumeData.packaging} />
-      <Portfolio data={resumeData.other} />
+      <Portfolio data={resumeData.product} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
     </div>
