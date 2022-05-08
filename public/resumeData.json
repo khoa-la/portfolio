@@ -7,7 +7,7 @@
     "occupation": "Designer",
     "description": "I eat, sleep and breathe React",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Nguyen Uy Bao! I am a 2nd year student majoring in graphic design at Hutech University, I have a year of internship at Rainbow production media company and freelance.",
+    "bio": "Hi there! I am Nguyen Uy Bao! I am a 3nd year student majoring in graphic design at Hutech University, I have a year of internship at Rainbow production media company and freelance.",
     "contactmessage": "Get in touch with me",
     "email": "muonhat123@gmail.com",
     "phone": "+84 915438658",
@@ -63,7 +63,7 @@
     ],
     "skills": [
       {
-        "name": "Photoshop",
+        "name": "Ps",
         "level": "95%"
       },
       {
